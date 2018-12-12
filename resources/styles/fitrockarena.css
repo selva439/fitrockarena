@@ -1,0 +1,20 @@
+body  {
+	background-image: url("http://localhost:9889/fitrockarena/resources/images/background_compressed.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.site-header {
+	background-color: rgba(0, 0, 0, .85);
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+	backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+	color: #F9F92B;
+	transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+	color: #F9F92B;
+	text-decoration: none;
+}
