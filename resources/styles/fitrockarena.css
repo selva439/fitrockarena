@@ -1,5 +1,5 @@
 body  {
-	background-image: url("http://localhost:9889/fitrockarena/resources/images/background_compressed.jpg");
+	background-image: url("../images/background_compressed.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -17,4 +17,69 @@ body  {
 .site-header a:hover {
 	color: #F9F92B;
 	text-decoration: none;
+}
+
+.navbar-brand  img {
+	max-height: 20%;
+	max-width: 20%;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-nav .nav-link
+{
+	color: #F7EB4F;
+}
+
+.navbar-inner {
+	background:transparent;
+}
+
+
+@media screen and (min-width: 770px) {
+	.nav-item a:hover {
+		border-bottom: 3px solid red;
+		/*width:25%;*/
+	}
+
+	.nav-item a.active {
+		border-bottom: 3px solid red;
+		margin: 0 auto;
+		display: block;
+		padding: .5rem 1rem;
+	}
+}
+
+
+.container {
+	color: white;
+}
+
+.footer {
+	color: #F7EB4F;
+}
+
+.footer ul li {
+	display: inline;
+}
+
+.footer img{
+	max-height: 15%;
+	max-width: 15%;
+}
+
+.footer {
+	font-size:20px;
+}
+
+.navbar-dark .navbar-toggler{
+	color: #F7EB4F;
+	border-color:#F7EB4F;
+	font-szie:34px;
+}
+
+
+@media screen and (max-width: 768px) {
+	.nav > li {
+		display: block;
+	}
 }

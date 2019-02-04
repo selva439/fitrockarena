@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<link rel="icon" href="http://localhost:9889/fitrockarena/resources/images/logogirl.ico">
+	<link rel="icon" href="resources/images/logogirl.ico">
 
 	<title>Fit Rock Arena</title>
 
@@ -35,30 +35,73 @@
 		crossorigin = "anonymous">
 	</script>
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Custom styles for this template -->
 	<link href="./resources/styles/fitrockarena.css" rel="stylesheet">
 </head>
 
 <body>
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<div class="container">
+				<a class="navbar-brand" href="#"><img src="resources/images/FitRockArena-Logo.png" /></a>
+				<button class="navbar-toggler ml-auto hidden-sm-up float-xs-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span><i class="fa fa-bars"></i></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="nav navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" data-toggle="tab" href="#home">HOME <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#about">ABOUT</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#climbing">CLIMBING</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#prices">PRICES</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
-	<nav class="site-header sticky-top py-1">
-		<div class="container d-flex flex-column flex-md-row justify-content-between">
-			<!--<a class="py-2" href="http://localhost:9889/fitrockarena/">
-				<img class="w-25 h-25" src="http://localhost:9889/fitrockarena/resources/images/fulllogo_backgroundwhite_textblack.png">
-			</a>-->
-			<a class="py-2 d-none d-md-inline-block" href="http://localhost:9889/fitrockarena/#">Home</a>
-			<a class="py-2 d-none d-md-inline-block" href="http://localhost:9889/fitrockarena/#">About</a>
-			<a class="py-2 d-none d-md-inline-block" href="http://localhost:9889/fitrockarena/#">Climbing</a>
-			<a class="py-2 d-none d-md-inline-block" href="http://localhost:9889/fitrockarena/#">Prices</a>
-		</div>
-	</nav>
+		<main role="main" class="container">
+			<div class="tab-content">
+				<div class="tab-pane active" id="home">
+					<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-left text-white">
+						<div class="col-md-12 col-sm-12 p-lg-5 mx-auto my-5">
+							<h1 class="display-4 font-weight-normal">Fit Rock Arena</h1>
+							<p class="lead font-weight-normal">Fit Rock Arena is Chennai's first and only rock climbing gym. We at Fit Rock, are passionate climbers ourselves and we are proud to be the first generation of climbers in Chennai.</p>
+							<a class="btn btn-outline-secondary" href="http://localhost:9889/fitrockarena/#">Read More..</a>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane" id="about">
+					<h4>test2</h4> tab2
+				</div>
+				<div class="tab-pane" id="climbing">
+					<h4>test3</h4> tab3
+				</div>
+				<div class="tab-pane" id="prices">
+					<h4>test4</h4>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="row">
+				<div class="col-sm-6 col-md-5 col-lg-3 offset-sm-6 offset-md-7 offset-lg-9" >
+					<ul>
+						<li>CONTACT</li>
+						<li><a href="#"><img src="resources/icons/FitRockArena-youtube.png" /></a></li>
+						<li><a href="#"><img src="resources/icons/FitRockArena-insta.png" /></a></li>
+						<li><a href="#"><img src="resources/icons/FitRockArena-fb.png" /></a></li>
+					</ul>
 
-	<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-left text-white">
-		<div class="col-md-5 p-lg-5 mx-auto my-5">
-			<h1 class="display-4 font-weight-normal">Fit Rock Arena</h1>
-			<p class="lead font-weight-normal">Fit Rock Arena is Chennai's first and only rock climbing gym. We at Fit Rock, are passionate climbers ourselves and we are proud to be the first generation of climbers in Chennai.</p>
-			<a class="btn btn-outline-secondary" href="http://localhost:9889/fitrockarena/#">Read More..</a>
-		</div>
+				</div>
+			</div>
+		</footer>
 	</div>
 
 </body>
